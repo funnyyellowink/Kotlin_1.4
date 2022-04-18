@@ -8,7 +8,7 @@ class MainKtTest {
     fun commissionCalc_Vk_Pay() {
         val result = commissionCalc(3, 10000, 0)
 
-        assertEquals(10.0, result, 0.01)
+        assertEquals(0.0, result, 0.01)
     }
     @Test
     fun commissionCalc_Visa_Mir() {
